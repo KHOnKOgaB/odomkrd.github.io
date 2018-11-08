@@ -1,0 +1,6 @@
+.DS_Store
+bower_components
+build
+node_modules
+npm-debug.log
+package-lock.json
