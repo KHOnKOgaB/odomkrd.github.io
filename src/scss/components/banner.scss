@@ -6,21 +6,26 @@
 }
 
 .banner-text {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	color: white;
-	padding-top: 150px;
-	text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    text-transform: uppercase;
 
-	h1 {
-		font-size: 80px;
-		font-weight: 500;
 
-	}
-	.welcome {
-		font-size: 25px;
-	}
+    .welcome {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner-text {
+    	padding-top: 100px;
+        .welcome {
+            font-size: 20px;
+        }
+    }
 }

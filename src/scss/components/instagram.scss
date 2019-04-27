@@ -29,6 +29,29 @@
 		height: 294px;
 		padding-left: 35px;
 		padding-bottom: 40px;
+		
 	}
 
+}
+
+@media screen and (max-width: 425px) {
+	.instagram__integration {
+
+	.inst__post {
+
+
+		.post-top {
+
+		}
+	}
+	.inst__post:hover .post-top {
+
+		}
+	.post__image {
+		padding-left: 0px;
+		
+	}
+
+}
+    
 }

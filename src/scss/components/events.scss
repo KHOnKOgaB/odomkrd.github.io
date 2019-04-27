@@ -28,3 +28,25 @@
 		}
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.events__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0px;
+	flex-direction: column;
+
+	.list__item {
+		.item__image {
+			width: 250px;
+			height: 220px;
+			
+		}
+		&:not(:first-child) {
+			padding-left: 0px;
+			padding-top: 20px;
+		}
+	}
+}
+}

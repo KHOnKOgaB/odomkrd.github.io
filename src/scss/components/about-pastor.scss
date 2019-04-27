@@ -23,3 +23,26 @@
     	}
     }
 }
+
+@media screen and (max-width: 425px) {
+    .about-pastor__container {
+        flex-direction: column;
+
+        .container__left {
+            img {
+                width: 250px;
+            }
+        }
+
+    .container__right {
+        .right__text {
+            padding-top: 20px;
+            line-height: 22px;
+        }
+        p:last-child {
+            padding-top: 20px;
+        }
+    }
+    }
+    
+}
