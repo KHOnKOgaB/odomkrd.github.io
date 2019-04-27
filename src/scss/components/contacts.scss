@@ -1,0 +1,35 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.contacts__container {
+    color: black;
+	.containter__address {
+
+	}
+
+	.container__date {
+		padding-top: 10px;
+	}
+    .container__button {
+    	padding-top: 25px;
+        a {
+            color: black;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 10px 10px;
+            font-size: 14px;
+        &:hover {
+            color: #FFCB26;
+            border: 1px solid #FFCB26;
+        }
+        }
+    }
+}

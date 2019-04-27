@@ -1,0 +1,61 @@
+.ministries {}
+
+.ministries__header {
+    background: url('../img/events.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ministries__container {
+    background-color: white;
+    color: black;
+    padding: 40px 0px;
+
+    .ministries__list {
+        .list__item {
+            position: relative;
+            padding-bottom: 50px;
+			.hr__settings {
+				align: center;
+				color: black;
+				margin-top: 50px;
+			}
+            .item__left {
+                .mnistries__h2 {
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    font-size: 20px;
+
+                }
+
+                .ministries__info {
+                    line-height: 25px;
+                    padding-bottom: 10px;
+                    font-size: 14px;
+                }
+
+            }
+
+            .item__right {}
+
+            // &::after {
+            //     content: "";
+            //     position: absolute;
+            //     display: block;
+            //     height: 1px;
+            //     width: 1000px;
+            //     background: black;
+
+            // }
+        }
+
+
+
+    }
+
+
+}

@@ -1,0 +1,30 @@
+.events {
+
+}
+
+.events__header {
+	background: url('../img/events.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.events__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0px;
+
+	.list__item {
+		.item__image {
+			
+		}
+		&:not(:first-child) {
+			padding-left: 50px;
+		}
+	}
+}

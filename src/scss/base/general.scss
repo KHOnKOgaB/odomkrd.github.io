@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700');
 
 
 body {
@@ -90,29 +89,15 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
-.--primary {
-    color: $primary;
-}
-
-.--margin-bot {
-    margin-bottom: 50px;
-}
-
 .--uppercase {
     text-transform: uppercase;
 }
 
-.btn-popup {
-    position: absolute;
-    border-radius: 5px;
-    background-color: #858fa6;
-    width: 100%;
-    bottom: 100%;
-    box-sizing: border-box;
-    padding: 7px 28px;
-    margin-bottom: 3px;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
+.header__h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
 }
 
 ul {
@@ -125,88 +110,17 @@ ul {
     .wrapper {
         width: 1000px;
     }
-    body {
-        font-size: 15px;
-    }
-    h1 {
-        font-size: 32px;
-    }
-    h2 {
-        font-size: 24px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h4 {
-        font-size: 13px;
-    }
-    .features .features__item {
-        font-size: 13px;
-    }
-    .footer .footer-right {
-        font-size: 13px;
-    }
-    .footer .company-info {
-        font-size: 13px;
-    }
 }
+
 
 @media screen and (max-width: 768px) {
     .wrapper {
         width: 95vw;
-    }
-body {
-        font-size: 16px;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    h2 {
-        font-size: 22px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h4 {
-        font-size: 13px;
-    }
-    .features .features__item {
-        font-size: 13px;
-    }
-    .footer .footer-right {
-        font-size: 13px;
-    }
-    .footer .company-info {
-        font-size: 13px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .wrapper {
         width: 95vw;
-    }
-     body {
-        font-size: 13px;
-    }
-    h1 {
-        font-size: 22px;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    h3 {
-        font-size: 15px;
-    }
-    h4 {
-        font-size: 13px;
-    }
-    .features .features__item {
-        font-size: 13px;
-    }
-    .footer .footer-right {
-        font-size: 13px;
-    }
-    .footer .company-info {
-        font-size: 13px;
     }
 }

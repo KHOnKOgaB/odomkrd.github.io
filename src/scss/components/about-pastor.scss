@@ -1,0 +1,25 @@
+.about-pastor {
+    background-color: white;
+    width: 100%;
+
+}
+
+.about-pastor__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+
+    .container__left {}
+
+    .container__right {
+    	.right__text {
+    		padding-left: 50px;
+    		line-height: 22px;
+    	}
+    	p:last-child {
+    		padding-top: 20px;
+    	}
+    }
+}

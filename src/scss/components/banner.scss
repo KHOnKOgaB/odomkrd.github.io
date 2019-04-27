@@ -1,0 +1,26 @@
+.banner {
+    background: url('../img/fp_background.png') no-repeat 0 0;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.banner-text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: white;
+	padding-top: 150px;
+	text-transform: uppercase;
+
+	h1 {
+		font-size: 80px;
+		font-weight: 500;
+
+	}
+	.welcome {
+		font-size: 25px;
+	}
+}

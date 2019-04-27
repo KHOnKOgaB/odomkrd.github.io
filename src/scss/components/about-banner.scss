@@ -1,0 +1,30 @@
+.about-banner {
+	 background: url('../img/about_bg.png') no-repeat 0 0;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.about-banner__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding-top: 100px;
+}
+.about-banner__title {
+	font-size: 100px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.about-banner__text {
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 50px;
+
+}

@@ -1,0 +1,43 @@
+.about-faith {}
+
+.about-faith__header {
+    background: url('../img/faith.jpg') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+
+    h1 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 80px;
+        font-weight: normal;
+    }
+}
+
+.about-faith__info {
+    padding: 50px 0px;
+    .info__we-faith {
+        font-weight: bold;
+    }
+
+    .info__circle {
+        list-style-type: disc;
+        padding-left: 40px;
+        line-height: 25px;
+
+        .dash {
+            list-style: none;
+
+            .li-dash:before {
+                content: "—";
+                position: relative;
+                left: -5px;
+                padding-left: 10px;
+            }
+
+        }
+    }
+}
