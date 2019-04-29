@@ -1,7 +1,7 @@
 .events {
-	position: relative;
-	margin: 0 auto; 
-	z-index: 2;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
 }
 
 .events__header {
@@ -30,14 +30,14 @@
 }
 
 .events__list {
-    
     padding: 100px 0px;
 
     .list__item {
-    	display: flex;
-    	align-items: center;
-    	justify-content: space-around;
-    	overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
         .item__image {
             width: 250px;
             height: 250px;
@@ -45,9 +45,6 @@
 
         }
 
-        &:not(:first-child) {
-            padding-left: 50px;
-        }
     }
 }
 
@@ -57,7 +54,6 @@
         justify-content: center;
         align-items: center;
         padding: 100px 0px;
-        flex-direction: column;
 
         .list__item {
             .item__image {
@@ -66,10 +62,11 @@
 
             }
 
-            &:not(:first-child) {
-                padding-left: 0px;
-                padding-top: 20px;
-            }
         }
+    }
+
+    .prev-arr,
+    .next-arr {
+        display: none;
     }
 }
