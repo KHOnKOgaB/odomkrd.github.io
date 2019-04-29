@@ -46,10 +46,10 @@ body{
   .menu{
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 90px;
     flex-direction: column;
     text-align: right;
-    background: blue;
+    background: none;
     padding: 20px;
     transition: 0.5s;
     visibility: hidden;
