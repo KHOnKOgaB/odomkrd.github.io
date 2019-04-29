@@ -1,6 +1,6 @@
  // ---------- BURGER KING MENU ----------
-    $('#burger-king').click(function(event) {
-        $('.top-menu').toggleClass('active')
+    $('#burger').click(function(event) {
+        $('.menu').toggleClass('active')
     })
 
     $('.carousel').slick({
