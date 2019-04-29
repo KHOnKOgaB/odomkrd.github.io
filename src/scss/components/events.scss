@@ -57,6 +57,7 @@
 
         .list__item {
             .item__image {
+            	padding-left: 50px;
                 width: 250px;
                 height: 220px;
 
@@ -65,8 +66,12 @@
         }
     }
 
-    .prev-arr,
     .next-arr {
+    	display: none;
+    	top: 65%;
+    }
+    .prev-arr {
         display: none;
+        top: 65%;
     }
 }
