@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 425px) {
 	.instagram__integration {
-
+	padding: 20px 0px;
 	.inst__post {
 
 
@@ -48,7 +48,9 @@
 
 		}
 	.post__image {
-		padding-left: 0px;
+		width: 140px;
+		height: 140px;
+		padding: 10px 10px;
 		
 	}
 
