@@ -50,6 +50,12 @@ p {
 // }
 // ---------- /SCROLLBAR ----------
 
+#church_logo {
+    stroke: white;
+    &:hover {
+        stroke: #FFCB26;
+    }
+}
 
 .wrapper {
     width: 1200px;
