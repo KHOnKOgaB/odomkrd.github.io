@@ -11,7 +11,11 @@
     align-items: center;
     padding: 100px 0px;
 
-    .container__left {}
+    .container__left {
+        img {
+            width: 350px;
+        }
+    }
 
     .container__right {
     	.right__text {
