@@ -7,13 +7,14 @@ $(document).ready(function(){
   })
 
 
-  if ($('.events__list')) {
+  if ($('.events__list').length) {
+    console.log('ok')
     $('.events__list').on('init', function(event, slick){
       console.log('.events__list init');
-
-            AOS.init();
+      AOS.init();
     });
   }else{
+    console.log('not ok')
     AOS.init();
   }
 
