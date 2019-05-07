@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aos": "^2.3.4",
     "browser-sync": "^2.24.6",
     "browserify": "^16.2.3",
     "gulp": "^4.0.2",
@@ -14,7 +15,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.1",
+    "jquery": "^3.4.1",
     "rimraf": "^2.6.2",
+    "slick-carousel": "^1.8.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {},

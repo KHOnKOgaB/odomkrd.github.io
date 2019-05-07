@@ -1,3 +1,6 @@
+const $ = require('jquery');
+const slick = require('slick-carousel');
+const AOS = require('aos');
 $(document).ready(function(){
   // AOS.init();
   // AOS.refresh(true)
