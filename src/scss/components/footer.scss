@@ -19,7 +19,18 @@
 
     a:not(:first-child) {
         padding-left: 25px;
+
+        img {
+            transition: 0.5s ease-out;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+
     }
+
+
 }
 
 .footer__contacts {
