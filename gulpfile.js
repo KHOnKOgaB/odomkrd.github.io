@@ -8,6 +8,7 @@ const rimraf = require('rimraf');
 const browserSync = require("browser-sync");
 const browserify = require('browserify');
 const source = require('vinyl-source-stream');
+const imagemin = require('gulp-imagemin');
 const reload = browserSync.reload;
 
 const path = {
@@ -78,6 +79,7 @@ function fonts() {
 function img() {
     return src(path.src.img)
       .pipe(dest(path.build.img))
+      .pipe(imagemin({verbose: true}))
       .pipe(reload({stream: true}));
 };
 
