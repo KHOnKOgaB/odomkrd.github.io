@@ -1,10 +1,23 @@
-AOS.init();
- // ---------- BURGER KING MENU ----------
-    $('#burger').click(function(event) {
-        $('.menu').toggleClass('active')
-    })
+$(document).ready(function(){
+  // AOS.init();
+  // AOS.refresh(true)
+  // ---------- BURGER KING MENU ----------
+  $('#burger').click(function(event) {
+    $('.menu').toggleClass('active')
+  })
 
-    $(document).ready(function(){
+
+  if ($('.events__list')) {
+    $('.events__list').on('init', function(event, slick){
+      console.log('.events__list init');
+
+            AOS.init();
+    });
+  }else{
+    AOS.init();
+  }
+
+
   $('.events__list').slick({
 		infinite: true,
 		slidesToShow: 3,
