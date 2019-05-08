@@ -15,7 +15,9 @@
     background-attachment: fixed;
 
 }
-
+.slick-slide{
+  text-align: center;
+}
 .next-arr {
     position: absolute;
     right: 15px;
@@ -32,40 +34,18 @@
 
 .events__list {
     padding: 100px 0px;
-
     .list__item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         overflow: hidden;
-
         .item__image {
             width: 250px;
             height: 250px;
-            display: block;
+            margin: 0 auto;
 
         }
-
     }
 }
 
 @media screen and (max-width: 425px) {
-    .events__list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 100px 0px;
-
-        .list__item {
-            .item__image {
-            	padding-left: 50px;
-                width: 250px;
-                height: 220px;
-
-            }
-
-        }
-    }
 
     .next-arr {
     	display: none;

@@ -67,7 +67,7 @@
     padding: 40px 0px;
 
     .ministries__list {
-
+        overflow: hidden;
         .list__item {
             display: flex;
             flex-direction: column;
@@ -98,18 +98,13 @@
 
             .item__right {
                 .right__image {
-                    padding-left: 20px;
-                    width: 260px;
+                    padding-left: 0;
+                    width: 100%;
                 }
             }
 
         }
-
-
-
     }
-
-
 }
 
 }

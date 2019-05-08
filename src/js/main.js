@@ -28,7 +28,7 @@ $(document).ready(function(){
 		slidesToScroll: 1,
 		// centerMode: true,
 		// variableWidth: true,
-		autoplay: true,
+		// autoplay: true,
 		autoplaySpeed: 2000,
 		responsive: [
 	    {
@@ -44,7 +44,8 @@ $(document).ready(function(){
 	      breakpoint: 600,
 	      settings: {
 	        slidesToShow: 1,
-	        slidesToScroll: 1
+	        slidesToScroll: 1,
+          arrows: false,
 	      }
 	    }],
 		prevArrow: $('.prev-arr'),
