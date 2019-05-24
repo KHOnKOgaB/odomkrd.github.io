@@ -1,12 +1,24 @@
 .banner {
-    background: url('../img/fp_background.png') no-repeat 0 0;
-    background-size: cover;
-    min-height: 100vh;
+    // background: url('../img/fp_background.png') no-repeat 0 0;
+    // background-size: cover;
+    height: 100vh;
     width: 100%;
-    background-attachment: fixed;
+}
+
+.video-background {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  video {
+    width: 100%;
+  }
 }
 
 .banner-text {
+    position: relative;
+    z-index: 10;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,7 +34,17 @@
     }
 }
 
+@media (pointer: coarse) and (hover: none) {
+    .video-background {
+      background: url('../../img/fp_background.png') black no-repeat center center scroll;
+    }
+    .video-background video {
+      display: none;
+    }
+  }
+
 @media screen and (max-width: 425px) {
+
     .banner-text {
     	padding-top: 150px;
         .welcome {

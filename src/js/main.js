@@ -28,7 +28,7 @@ $(document).ready(function(){
 		slidesToScroll: 1,
 		// centerMode: true,
 		// variableWidth: true,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 2000,
 		responsive: [
 	    {

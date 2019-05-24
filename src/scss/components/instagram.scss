@@ -1,5 +1,7 @@
 .instagram {
 	background-color: white;
+	position: relative;
+	z-index: 10;
 }
 
 .instagram__integration {
@@ -29,7 +31,7 @@
 		height: 294px;
 		padding-left: 35px;
 		padding-bottom: 40px;
-		
+
 	}
 
 }
@@ -51,9 +53,9 @@
 		width: 140px;
 		height: 140px;
 		padding: 10px 10px;
-		
+
 	}
 
 }
-    
+
 }

@@ -1,4 +1,8 @@
-.ministries {}
+.ministries {
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
 
 .ministries__header {
     background: url('../img/church_life.png') no-repeat 0 0;
@@ -8,10 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 .ministries__container {
-    background-color: white;
     color: black;
     padding: 40px 0px;
 

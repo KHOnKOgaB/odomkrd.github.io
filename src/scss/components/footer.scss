@@ -1,6 +1,8 @@
 .footer {
     background-color: #2f2f2f;
     width: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .footer__container {
@@ -16,10 +18,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     i {
             color: white;
-            font-size: 26px; 
+            font-size: 26px;
             transition: 0.2s ease-out;
             &:hover {
                 transform: scale(1.5);
