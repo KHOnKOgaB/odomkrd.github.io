@@ -48,6 +48,7 @@
     }
   .menu{
     position: absolute;
+    z-index: 999;
     right: 0;
     top: 100px;
     flex-direction: column;

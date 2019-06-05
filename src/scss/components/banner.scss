@@ -37,6 +37,7 @@
 @media (pointer: coarse) and (hover: none) {
     .video-background {
       background: url('../../img/fp_background.png') black no-repeat center center scroll;
+      height: 100vh
     }
     .video-background video {
       display: none;
@@ -44,7 +45,6 @@
   }
 
 @media screen and (max-width: 425px) {
-
     .banner-text {
     	padding-top: 150px;
         .welcome {
